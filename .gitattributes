@@ -1,4 +1,6 @@
-.gitattributes# ClickOnce artifacts must be treated as binary
+.gitattributes
+
+# ClickOnce artifacts must be treated as binary
 *.application binary
 *.manifest binary
 *.config binary
