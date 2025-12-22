@@ -33,7 +33,7 @@
         }
         .screenshot {
             width: 100%;
-            max-width: 400px;
+            max-width: 800px;
             margin: 1rem;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
@@ -86,37 +86,69 @@
 <body>
     <header>
         <h1>Ephemeral</h1>
-        <p>Lightweight, offline, agile task management made simple.</p>
+        <p>Simple time tracking utility for Agile environments.</p>
     </header>
     <main>
         <section class="pitch">
             <h2>Why Ephemeral?</h2>
             <p>
                 Ephemeral helps you manage your sprints efficiently without unnecessary clutter. 
-                Track time, stay offline, and generate meaningful reports — all without login friction.
+                Track time, stay offline, and generate meaningful reports — all with a few clicks.
             </p>
         </section>
 
+        <section class="features">
+			<li>Are you comfortable with guesstimating how much time you spent on each charge number?</li>
+			<li>Can you really remember during standup all the little tasks you did yesterday?</li>
+			<li>Do you know how many hours your story points are?</li>
+			<li>Is your team giving you the side-eye for oversizing your stories at planning?</li>
+        </section>
+			
+			
         <section class="screenshots">
-            <img src="screenshot1.png" alt="Screenshot 1" class="screenshot">
-            <img src="screenshot2.png" alt="Screenshot 2" class="screenshot">
-            <img src="screenshot3.png" alt="Screenshot 3" class="screenshot">
+            <img src="./Images/1.png" alt="Task stopwatches" class="screenshot">
+			<figcaption>
+				Quickly start/stop each task for precise time tracking!
+			</figcaption>
         </section>
 
         <section class="features">
-            <h2>Features</h2>
+            <h2>Know <i>exactly</i> where your time is going!</h2>
             <ul>
-                <li>Stopwatches for each task</li>
-                <li>Offline operation — no internet required</li>
+                <li>Ultra precise task time measurement</li>
+                <li>Stopwatch for each task</li>
+                <li>Easily move time between tasks</li>
+                <li>Task times are consolidated by common charge numbers for easy timesheet entry</li>
+                <li>Timesheet rounding to 1/10 or 1/4 hour</li>
+                <li>Option to make tasks recurrent for each sprint</li>
+                <li>Automatic stopwatch cleanup for completed tasks</li>
+            </ul>
+			
+            <h2>Refine your planning and be prepared for retrospectives!</h2>
+            <ul>
+                <li>Fast setup — up and running in minutes!</li>
+                <li>Discover which tasks are over- and under-estimated</li>
+                <li>Easily see workday history</li>
+                <li>Generate sprint report at the click of a button</li>
                 <li>Lightweight and fast</li>
                 <li>No login required</li>
-                <li>Sprint / Agile based workflow</li>
-                <li>Generates detailed reports</li>
-                <li>Sprint statistics at a glance</li>
-                <li>Shows estimated vs actual task times</li>
-                <li>Option to make tasks recurrent for each sprint</li>
-                <li>Option to discontinue tasks to reduce stopwatch clutter</li>
+                <li>Offline operation — no internet required</li>
             </ul>
+        </section>
+
+        <section class="screenshots">
+            <img src="./Images/2.png" alt="Easy task setup" class="screenshot">
+			<figcaption>
+				Create task stopwatches with time estimates and story linking.
+			</figcaption>
+            <img src="./Images/3.png" alt="Quick project setup" class="screenshot">
+			<figcaption>
+				Easily add projects and charge numbers.
+			</figcaption>
+            <img src="./Images/4.png" alt="Shuffle time from one task to another" class="screenshot">
+			<figcaption>
+				Quickly move time from one task to another, or distribute time to multiple tasks!
+			</figcaption>
         </section>
 
         <a href="ephemeral.application" class="install">Install Ephemeral</a>
