@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ephemeral.exe" size="2427392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ephemeral.exe" size="2427904">
       <assemblyIdentity name="ephemeral" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tp3+J2yHNL6bpHDLrCeXhjQ0jlyzLJ0Q+bGL23U4Esw=</dsig:DigestValue>
+        <dsig:DigestValue>FxxheJivaPOatr2kVezZnRqJibo7G89otQ50pvjnzNI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

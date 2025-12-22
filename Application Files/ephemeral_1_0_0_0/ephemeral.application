@@ -5,7 +5,7 @@
   <deployment install="true" minimumRequiredVersion="1.0.0.0" co.v1:createDesktopShortcut="true">
     <subscription>
       <update>
-        <expiration maximumAge="7" unit="weeks" />
+        <expiration maximumAge="2" unit="weeks" />
       </update>
     </subscription>
     <deploymentProvider codebase="https://excelsiorutilities.github.io/ephemeral/ephemeral.application" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ujxc+66b04k8Ly7ytr03nWIs8dnFMSqx4sdJSJPmoYM=</dsig:DigestValue>
+        <dsig:DigestValue>IR2sOm/53AIl5w3zDVYdzoiv87hX8Gw2t8nHDNwZs74=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
