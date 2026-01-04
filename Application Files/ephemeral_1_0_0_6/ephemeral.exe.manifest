@@ -4,7 +4,7 @@
   <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ephemeral" version="1.0.0.5" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="ephemeral" version="1.0.0.6" language="neutral" processorArchitecture="amd64" />
     <commandLine file="ephemeral.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,13 +44,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ephemeral.exe" size="2428416">
-      <assemblyIdentity name="ephemeral" version="1.0.0.5" language="neutral" processorArchitecture="amd64" />
+      <assemblyIdentity name="ephemeral" version="1.0.0.6" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZPDfeWao57agFfTUI8PvDuGIDs7AtjKUjuqTFKXbSFE=</dsig:DigestValue>
+        <dsig:DigestValue>uN6NncxSIHnhttOpY4ZnR/ivx3nzzXzF2NLdJgEoUjs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
