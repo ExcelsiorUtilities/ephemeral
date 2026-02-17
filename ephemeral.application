@@ -14,14 +14,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\ephemeral_1_0_1_0\ephemeral.exe.manifest" size="22027">
+    <dependentAssembly dependencyType="install" codebase="Application Files\ephemeral_1_0_1_0\ephemeral.exe.manifest" size="22025">
       <assemblyIdentity name="ephemeral.exe" version="1.0.1.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ez5U4PIzUKvtn1pioTRzPGLn/JJesKWl1mo0C3JUxxE=</dsig:DigestValue>
+        <dsig:DigestValue>fLaRF/yHpVSC+KJ7BZaLYwLigwFIELtCHNoftVy9dhs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
